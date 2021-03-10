@@ -1,4 +1,3 @@
 .history
-dist
 *.lock
 node_modules
