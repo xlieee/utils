@@ -1,5 +1,5 @@
 const format = {
-  thousand(val: number | string | void): string | number {
+  toThousand(val: number | string | void): string | number {
     if (val === undefined || !Number(val)) return 0;
     return String(val).replace(/\B(?=(?:\d{3})+(?!\d))/g, ",");
   },

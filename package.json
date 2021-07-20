@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xlieee/utils.git"
+    "url": "git+https://github.com/7788042/utils.git"
   },
   "files": [
     "dist"
@@ -20,9 +20,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xlieee/utils/issues"
+    "url": "https://github.com/7788042/utils/issues"
   },
-  "homepage": "https://github.com/xlieee/utils#readme",
+  "homepage": "https://github.com/7788042/utils#readme",
   "devDependencies": {
     "@types/jest": "^26.0.20",
     "eslint": "^7.21.0",
