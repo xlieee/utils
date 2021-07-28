@@ -1,12 +1,12 @@
 const format = {
-  toThousand(val: number | string | void): string | number {
-    if (val === undefined || !Number(val)) return 0;
+  toThousand(val: number | string | void): string {
+    if (val === undefined || !Number(val)) return "";
     return String(val).replace(/\B(?=(?:\d{3})+(?!\d))/g, ",");
   },
   toPercent(value: number | string | void, unit: string = "%"): string {
-    if (value === undefined) return "0";
+    if (value === undefined) return "";
     let val = Number(value);
-    if (!val) return "0";
+    if (!val) return "";
 
     if (val >= 1 || val <= -1) {
       val = Number(val.toFixed(4).replace(".", "")) / 100;
