@@ -3,4 +3,6 @@
     "eslint.run": "onSave",
     "editor.detectIndentation": false,
     "editor.tabSize": 2,
+    "prettier.singleQuote": true,
+    "prettier.semi": false,
 }
