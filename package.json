@@ -2,8 +2,10 @@
   "name": "utils",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.umd.js",
-  "module": "dist/index.module.js",
+  "exports": "./dist/index.modern.js", 
+  "main": "./dist/index.js",         
+  "module": "./dist/index.module.js",
+  "unpkg": "./dist/index.umd.js", 
   "source": "src/index.ts",
   "scripts": {
     "dev": "microbundle watch",
